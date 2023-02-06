@@ -37,9 +37,7 @@ export default function Navbar() {
                             <li>
                                 <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">GitHub</a>
                             </li>
-                        </ul>
-                    </div>
-                    <a className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-gray-700  text-xl hover:scale-110 hover:-translate-y-1 transition ease-in-out delay-100 duration-300">
+                            <li><a className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-gray-700  text-xl hover:scale-110 hover:-translate-y-1 transition ease-in-out delay-100 duration-300">
                                 <button
                                     id="theme-toggle"
                                     type="button"
@@ -72,6 +70,9 @@ export default function Navbar() {
                                     </svg>
                                 </button>
                             </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </>
