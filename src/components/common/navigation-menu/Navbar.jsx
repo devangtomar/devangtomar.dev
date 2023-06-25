@@ -2,12 +2,12 @@ export default function Navbar() {
     return (
         <>
             <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div class="max-w-screen-md flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" class="flex items-center">
                         <img src="https://avatars.githubusercontent.com/u/32426600?v=4" class="mr-3 w-10 rounded-full" alt="Flowbite Logo" />
                         <span class="self-center text-xl font-bold whitespace-nowrap dark:text-white">Devang Tomar</span>
                     </a>
-                    <div class="flex items-center md:order-2">
+                    <div class="flex items-center">
                         <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
                             <div class="px-4 py-3">
                                 <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
