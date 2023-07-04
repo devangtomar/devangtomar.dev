@@ -20,7 +20,7 @@ export default function Navbar() {
                                 >
                                     <svg
                                         id="theme-toggle-dark-icon"
-                                        className="w-5 h-5 hidden"
+                                        className="w-6 h-6 hidden"
                                         fill="currentColor"
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function Navbar() {
                                     </svg>
                                     <svg
                                         id="theme-toggle-light-icon"
-                                        className="w-5 h-5"
+                                        className="w-6 h-6"
                                         fill="currentColor"
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
