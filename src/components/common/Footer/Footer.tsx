@@ -20,6 +20,9 @@ export default function Footer() {
                             <li>
                                 <img className='w-8' src="https://img.icons8.com/doodle/48/instagram--v1.png" alt="instagram--v1"/>
                             </li>
+                            <li>
+                                <img className='w-8' src="https://img.icons8.com/glyph-neue/64/medium-monogram.png" alt="medium-monogram"/>
+                            </li>
                         </ul>
                     </div>
                 </div>
