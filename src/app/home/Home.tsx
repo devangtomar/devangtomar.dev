@@ -14,8 +14,8 @@ export default function Home() {
                 <div className="max-w-screen-md">
                     <img className="" src="https://img.icons8.com/doodle/480/telegram.png" alt="telegram"/></div>
             </div>
-            <div className="max-w-screen-md flex items-center pt-20">
-                <div className="p-4 dark:text-white">
+            <div className="max-w-screen-md flex pt-20 mx-auto ">
+                <div className="p-4 dark:text-white ">
                     <h1 className="text-4xl max-w-md font-extrabold">Latest Posts 🔦</h1>
                 </div>
             </div>
