@@ -1,7 +1,7 @@
 export function Dark(): void {
     console.log('Checking for Dark function call!');
-    var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon') as HTMLElement;
-    var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon') as HTMLElement;
+    var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
     // toggle icons inside button
     themeToggleDarkIcon.classList.toggle('hidden');
