@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="opacity-50 bg-white dark:bg-gray-800 fixed w-full z-20 bottom-0 left-0  ">
+            <footer className="opacity-50 bg-white dark:bg-gray-800 w-full bottom-0 left-0  ">
                 <div className="max-w-screen-md flex flex-wrap items-center justify-between mx-auto p-4">
                     <div>
                         <span className="font-semibold dark:text-white">Made with ❤️ by Devang</span>
