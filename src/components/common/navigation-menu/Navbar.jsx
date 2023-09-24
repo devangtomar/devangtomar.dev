@@ -73,19 +73,19 @@ export default function Navbar() {
                     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 mt-2" id="navbar-user">
                         <ul class="flex items-center flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 text-sm">
                             <li>
-                                <a href="/about" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                                <a href="/about" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">About</a>
                             </li>
                             <li>
-                                <a href="/blog" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                                <a href="/blog" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Blog</a>
                             </li>
                             <li>
-                                <a href="/projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                                <a href="/projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Projects</a>
                             </li>
                             <li>
-                                <a href="/illustration" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Illustration</a>
+                                <a href="/illustration" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Illustration</a>
                             </li>
                             <li>
-                                <a href="https://github.com/devangtomar" target="_blank" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">GitHub</a>
+                                <a href="https://github.com/devangtomar" target="_blank" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">GitHub</a>
                             </li>
                         </ul>
                     </div>
