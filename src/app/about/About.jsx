@@ -33,13 +33,13 @@ export default function About() {
                                     My site has no ads, no affiliate links, no tracking or
                                     analytics, no sponsored posts, and no paywall. My only
                                     motivation for this site is to share what I've learned with
-                                    the world.{" "}
-                                </p>
-                                <p className="mt-4 max-w-md break-words">
-                                    Although the tide is against me, I want to make the internet a
+                                    the world. Although the tide is against me, I want to make the internet a
                                     better place, even if it's just right here. I hope I will
                                     inspire others to make their own creative corner on the web as
-                                    well. You can contact me by email at hello at toBeDecided.com
+                                    well.
+                                </p>
+                                <p className="mt-4 max-w-md break-words">
+                                    You can contact me by email at hello at toBeDecided.com
                                     to say hi! I always appreciate meeting new people.
                                 </p>
                             </div>
