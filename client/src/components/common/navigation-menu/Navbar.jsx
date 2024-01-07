@@ -3,7 +3,7 @@ import { Dark } from "../theme/Dark"
 export default function Navbar() {
     return (
         <>
-            <nav class="opacity-50 bg-white dark:bg-gray-800 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+            <nav class="opacity-50 bg-white dark:bg-gray-800 w-full top-0 left-0 border-b border-gray-200 dark:border-gray-600">
                 <div class="max-w-screen-md flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" class="flex items-center mb-3">
                         <img src="https://avatars.githubusercontent.com/u/32426600?v=4" class="mr-3 w-10 rounded-full" alt="Flowbite Logo" />
