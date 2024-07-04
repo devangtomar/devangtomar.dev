@@ -1,4 +1,4 @@
-import { Dark } from "../theme/Dark"
+import { Dark } from "../theme/Dark";
 
 export default function Navbar() {
     return (
@@ -6,8 +6,14 @@ export default function Navbar() {
             <nav class="opacity-50 bg-white dark:bg-gray-800 w-full top-0 left-0 border-b border-gray-200 dark:border-gray-600">
                 <div class="max-w-screen-md flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" class="flex items-center mb-3">
-                        <img src="https://avatars.githubusercontent.com/u/32426600?v=4" class="mr-3 w-10 rounded-full" alt="Flowbite Logo" />
-                        <span class="self-center text-xl font-bold whitespace-nowrap dark:text-white">Devang Tomar</span>
+                        <img
+                            src="https://avatars.githubusercontent.com/u/32426600?v=4"
+                            class="mr-3 w-10 rounded-full"
+                            alt="Flowbite Logo"
+                        />
+                        <span class="self-center text-xl font-bold whitespace-nowrap dark:text-white">
+                            Devang Tomar
+                        </span>
                     </a>
                     <div class="flex items-center ml-auto">
                         <div class="flex mr-2">
@@ -25,9 +31,7 @@ export default function Navbar() {
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <path
-                                            d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
-                                        ></path>
+                                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
                                     </svg>
                                     <svg
                                         id="theme-toggle-light-icon"
@@ -70,27 +74,48 @@ export default function Navbar() {
                             </button>
                         </div>
                     </div>
-                    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 mb-2" id="navbar-user">
+                    <div
+                        class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 mb-2"
+                        id="navbar-user"
+                    >
                         <ul class="flex items-center flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 text-sm">
                             <li>
-                                <a href="/about" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">About</a>
+                                <a
+                                    href="/about"
+                                    class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold"
+                                >
+                                    Articles
+                                </a>
                             </li>
                             <li>
-                                <a href="/blog" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Blog</a>
+                                <a
+                                    href="/projects"
+                                    class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold"
+                                >
+                                    Projects
+                                </a>
                             </li>
                             <li>
-                                <a href="/projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Projects</a>
+                                <a
+                                    href="/illustration"
+                                    class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold"
+                                >
+                                    Illustration
+                                </a>
                             </li>
                             <li>
-                                <a href="/illustration" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Illustration</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/devangtomar" target="_blank" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">GitHub</a>
+                                <a
+                                    href="https://github.com/devangtomar"
+                                    target="_blank"
+                                    class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-purple-400 md:p-0 dark:text-white md:dark:hover:text-purple-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold"
+                                >
+                                    About Me
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </>
-    )
+    );
 }
