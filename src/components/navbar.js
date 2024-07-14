@@ -52,10 +52,10 @@ export default function Navbar() {
                         </div>
                     </div>
                     <div
-                        className={`items-center justify-between w-full md:flex md:w-auto md:order-2 mb-2 ${isOpen ? "flex" : "hidden"}`}
+                        className={`flex flex-col items-center justify-center w-full md:flex md:w-auto md:order-2 mb-2 ${isOpen ? "flex" : "hidden"}`}
                         id="navbar-user"
                     >
-                        <ul className="flex items-center flex-col justify-center text-center font-medium p-6 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 text-lg">
+                        <ul className="flex items-center flex-col justify-center text-center font-medium p-6 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 text-lg w-full">
                             <li>
                                 <ThemeSwitcher />
                             </li>
@@ -94,8 +94,7 @@ export default function Navbar() {
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </div>               </div>
             </nav>
         </>
     );
