@@ -19,7 +19,7 @@ export default function Home() {
                         make open-source projects and write about code, design, and life . I
                         enjoy coding 🖥️, reading 📚, and gaming 🎮.
                     </p>
-                    <p className="mt-4 max-w-md break-words">
+                    <p className="text-lg mt-4 max-w-md break-words">
                         I love working in-between product, engineering and developer
                         experience, currently at SAP Labs 🧑🏻‍💻
                     </p>
