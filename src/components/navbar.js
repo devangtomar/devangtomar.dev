@@ -42,9 +42,9 @@ export default function Navbar() {
                                 >
                                     <path
                                         stroke="currentColor"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
                                         d="M1 1h15M1 7h15M1 13h15"
                                     />
                                 </svg>
@@ -52,7 +52,7 @@ export default function Navbar() {
                         </div>
                     </div>
                     <div
-                        className={`items-center justify-between w-full md:flex md:w-auto md:order-1 mb-2 ${isOpen ? "flex" : "hidden"}`}
+                        className={`items-center justify-between w-full md:flex md:w-auto md:order-2 mb-2 ${isOpen ? "flex" : "hidden"}`}
                         id="navbar-user"
                     >
                         <ul className="flex items-center flex-col justify-center text-center font-medium p-6 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 text-lg">
