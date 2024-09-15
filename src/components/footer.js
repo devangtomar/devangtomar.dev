@@ -1,13 +1,13 @@
 export default function Footer() {
     return (
         <>
-            <footer className="opacity-50 bg-white dark:bg-gray-800 w-full fixed bottom-0 left-0">
-                <div className="max-w-screen-md flex flex-wrap items-center justify-between mx-auto p-4">
+            <footer className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-md w-full fixed bottom-0 left-0 border-t border-gray-200 dark:border-gray-600">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <div>
                         <span className="font-semibold dark:text-white">Made with ❤️ by Devang</span>
                     </div>
                     <div className="items-center justify-between md:flex md:w-auto" id="navbar-user">
-                        <ul className="flex font-medium p-4 space-x-4 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700">
+                        <ul className="flex font-medium space-x-4">
                             <li>
                                 <img className='w-8' src="https://img.icons8.com/doodle/48/twitter-circled.png" alt="twitter-circled" />
                             </li>
