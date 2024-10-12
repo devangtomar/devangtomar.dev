@@ -3,10 +3,10 @@ import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="dark:bg-zinc-900 bg-zinc-200">
       <Navbar></Navbar>
       <div className="max-w-screen-xl flex-row flex items-center justify-between mx-auto pt-10">
-        <div className="flex-wrap mx-auto p-8 dark:text-white">
+        <div className="flex-wrap mx-auto p-8">
           <h1 className="text-5xl font-extrabold font-mono">
             Hey, I'm Devang!
           </h1>

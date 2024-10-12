@@ -21,9 +21,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className={`sticky top-0 w-full z-50 transition-all duration-300 ${
-                isScrolled ? 'bg-white/50 dark:bg-gray-800/50 backdrop-blur-md' : 'bg-white dark:bg-gray-800'
-            } border-b border-gray-200 dark:border-gray-600`}>
+            <nav className={`sticky top-0 w-full z-50 transition-all duration-300 border-b dark:bg-zinc-900 border-gray-500`}>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
                     <a href="/" className="flex items-center mb-3">
                         <img
@@ -39,7 +37,7 @@ export default function Navbar() {
                         <div className="flex mr-2">
                             <button
                                 type="button"
-                                className="inline-flex items-center p-2 w-12 h-12 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                className="inline-flex items-center p-2 w-12 h-12 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 border-gray-500"
                                 aria-controls="navbar-user"
                                 aria-expanded={isOpen}
                                 onClick={toggleMenu}
@@ -67,7 +65,7 @@ export default function Navbar() {
                         className={`flex flex-col items-center justify-center w-full md:flex md:w-auto md:order-2 mb-2 ${isOpen ? "flex" : "hidden"}`}
                         id="navbar-user"
                     >
-                        <ul className="flex items-center flex-col justify-center text-center font-medium p-6 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 text-lg w-full">
+                        <ul className="flex items-center flex-col justify-center text-center font-medium p-6 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 text-lg w-full">
                             <li>
                                 <ThemeSwitcher />
                             </li>

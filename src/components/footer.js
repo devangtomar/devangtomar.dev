@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-md w-full fixed bottom-0 left-0 border-t border-gray-200 dark:border-gray-600">
+            <footer className="dark:bg-zinc-900 backdrop-blur-md w-full fixed bottom-0 left-0 border-t border-gray-500">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <div>
                         <span className="font-semibold dark:text-white">Made with ❤️ by Devang</span>
